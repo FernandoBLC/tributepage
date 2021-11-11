@@ -1,0 +1,142 @@
+:root{
+    font-size: 16px;
+    background-color: #fcfcfc;
+    color:rgb(0, 0, 0);
+}
+
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    font-size: inherit;
+    vertical-align: baseline;
+}
+
+h1{
+    font-family: 'Zen Old Mincho', serif;
+    font-size: 5rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#image{
+    border-radius: 1000px 500px 1000px 500px;
+    width: 50%;
+    height: auto;
+    transition-duration: 2s;
+}
+
+#image:hover{
+    border-radius: 0%;
+    width: 100%;
+    height: auto;
+}
+
+
+
+#img-div{
+    text-align: center;
+}
+
+#img-caption{
+    margin-top: .8rem;
+    font-family: 'Crimson Text', serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#tribute-info{
+    margin-top: .7rem;
+    line-height: 1.6rem;
+    font-family: 'Crimson Text', serif;
+    font-size: 1.2rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
+h4{
+    margin-top: 1rem;
+    font-family: 'Zen Old Mincho', serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+@media (max-height: 800px){
+    :root{
+        font-size: 16px;
+        background-color: #fcfcfc;
+        color:rgb(0, 0, 0);
+    }
+    
+    a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        font-size: inherit;
+        vertical-align: baseline;
+    }
+    
+    h1{
+        font-family: 'Zen Old Mincho', serif;
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: center;
+    }
+    
+    img{
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    #image{
+        border-radius: 1000px 500px 1000px 500px;
+        width: 50%;
+        heigth: auto;
+    }
+    
+    #img-caption{
+        margin-top: .8rem;
+        font-family: 'Crimson Text', serif;
+        font-size: 1.3rem;
+        font-weight: 600;
+        text-align: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    #tribute-info{
+        margin-top: .7rem;
+        line-height: 1.6rem;
+        font-family: 'Crimson Text', serif;
+        font-size: 1.1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        text-align: left;
+    }
+    
+    h4{
+        margin-top: 1rem;
+        font-family: 'Zen Old Mincho', serif;
+        font-size: 1.1rem;
+        font-weight: 600;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        text-align: center;
+    }
+}
